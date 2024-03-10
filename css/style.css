@@ -27,7 +27,10 @@ h1 {
 
 .container h2 {
   position: relative;
-  margin-left: 0px;
+  margin-left: -355px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  
 }
 
 .container button {
@@ -36,21 +39,28 @@ h1 {
   width: 500px;
   color: rgba(255, 255, 255, 0.815);
   position: static;
-  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: left;
   padding-left: 15px;
   border-radius: 1px;
   border-style: none;
-
 }
 
-.rodape {
-  text-align: center;
+.container button:active {
+  text-decoration: line-through; /* Adiciona um traço quando o botão estiver ativo (pressionado) */
+}
+
+.container .rodape {
+  background-color: #2a292e;
+  color: #848389;
   margin-top: 25px;
   border: dashed #848389;
   border-radius: 2px;
-  height: 50px;
+  height: 70px;
   width: 500px;
-  
+  font-size: small;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
   
 }
